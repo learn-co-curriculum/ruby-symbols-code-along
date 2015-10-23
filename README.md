@@ -15,14 +15,14 @@ The ruby-docs tell us that [symbol](http://ruby-doc.org/core-2.2.0/Symbol.html) 
 
 ## Code Along: Basic Symbols
 
-***This is a code along exercise. There are no tests to pass, just follow along with the guide and get your code working***. 
+***This is a code along exercise. First we will go through a couple of examples in your terminal. Then you will fork and clone this lab to complete the exercise and make your tests pass. 
 
 
 ### Step 1: Symbol Syntax Options
 
 If you look at the examples below, you can see we have to `food` hashes. They behave exactly the same way, but as you can see look slightly different. 
 
-In Exammple 1 we are using a using a symbol followed by a hash rocket which is pointing to the value. So the symbol `:pizza` is pointing to the value `"awesome"`
+In Example 1 we are using a using a symbol followed by a hash rocket which is pointing to the value. So the symbol `:pizza` is pointing to the value `"awesome"`
 ####Example 1
 
 ```
@@ -33,7 +33,7 @@ food1 = {
 }
 ```
 
-In Example 2 we are using a using a symbol, but this time the colon is after the word which allows us to drop the hash rocket.
+In Example 2 we are using a using a symbol, but this time the colon is after the word which allows us to drop the hash rocket. This is known as JSON notation.
 ####Example 2
 ```
 food2 = {
@@ -53,7 +53,7 @@ Let's say we wanted to know the value of the symbol `:pizza`, how would we do th
 
 For our example, to get the value of `:pizza` we would type `food[:pizza]` which would return the string `"awesome"` Go ahead and try it out in your terminal.
 
-Now let's copy and paste the code from Example 2 into our terminal. When you hit enter, you should see the return value is `{:pizza=>"awesome", :burgers=>"great", :tacos=>"delicious"}` which is the same as Example 1. Although their syntax is different, their return values are identical. One thing to note is the return value is alway in the hashrocket style even if you use `key: "value"` style.
+Now let's copy and paste the code from Example 2 into our terminal. When you hit enter, you should see the return value is `{:pizza=>"awesome", :burgers=>"great", :tacos=>"delicious"}` which is the same as Example 1. Although their syntax is different, their return values are identical. One thing to note is the return value is always in the hashrocket style even if you use `key: "value"` style, so when using the bracket method to retrieve values, you have to pass in a symbol.
 
 You can access these values in the same way using `hash_name[key_name]` => return the value we want. 
 
