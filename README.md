@@ -15,7 +15,7 @@ The ruby-docs tell us that [symbol](http://ruby-doc.org/core-2.2.0/Symbol.html) 
 
 ## Code Along: Basic Symbols
 
-***This is a code along exercise. First we will go through a couple of examples in your terminal. Then you will fork and clone this lab to complete the exercise and make your tests pass. 
+***This is a code along exercise. First we will go through a couple of examples in your terminal. Then you will fork and clone this lab to complete the exercise and make your tests pass.***
 
 
 ### Step 1: Symbol Syntax Options
