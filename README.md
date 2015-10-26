@@ -38,6 +38,7 @@ food1 = {
 
 In Example 2 we are using a using a symbol, but this time the colon is after the word which allows us to drop the hash rocket. This is known as JSON notation. This was introduced in ruby 1.9 and we generally prefer JSON notation now.
 ####Example 2
+
 ```
 food2 = {
   pizza: "awesome",
