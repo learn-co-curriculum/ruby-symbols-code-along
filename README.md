@@ -6,7 +6,7 @@
 2. Identify how to access values using the bracket method.
 
 ## Introduction
-While googling around about hashes, you may have encountered something like this: food = {:pizza => "awesome"}. What is that :pizza thing? It kinda looks like a string, but it has that colon. That colon signifys this is a new data type, a symbol. We generally use symbols as our keys. Let's find out why
+While googling around about hashes, you may have encountered something like this: `food = {:pizza => "awesome"}`. What is that `:pizza` thing? It kinda looks like a string, but it has that colon. That colon signifys this is a new data type, a symbol. We generally use symbols as our keys. Let's find out why
 
 We are going to take a deeper dive into Ruby symbols. Our goal is to understand how they are different from strings and when/why we might want to use them in our code. We will also learn how to use the bracket method to access hash values.
 
