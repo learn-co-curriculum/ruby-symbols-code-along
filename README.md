@@ -26,9 +26,10 @@ Pretty much what this means is symbols are just strings, but instead of wrapping
 If you look at the examples below, you can see we have two `food` hashes. They behave exactly the same way, but as you can see look slightly different.
 
 In Example 1 we are using a using a symbol followed by a hash rocket which is pointing to the value. So the symbol `:pizza` is pointing to the value `"awesome"`
-####Example 1
 
-```
+#### Example 1
+
+```ruby
 food1 = {
   :pizza => "awesome",
   :burgers => "great",
@@ -37,9 +38,10 @@ food1 = {
 ```
 
 In Example 2 we are using a using a symbol, but this time the colon is after the word which allows us to drop the hash rocket. This is known as JSON notation. This was introduced in ruby 1.9 and we generally prefer JSON notation now.
-####Example 2
 
-```
+#### Example 2
+
+```ruby
 food2 = {
   pizza: "awesome",
   burgers: "great",
@@ -61,7 +63,10 @@ Now let's copy and paste the code from Example 2 into our terminal. When you hit
 
 You can access these values in the same way using `hash_name[key_name]` => return the value we want.
 
-###Now it's your turn! You're going to build hashes using both forms of notation to get your tests to pass.
+### Now it's your turn! You're going to build hashes using both forms of notation to get your tests to pass.
+
 Fork and clone this lab. You'll be coding your solutions in `lib/first_challenge.rb` and `lib/second_challenge.rb`.
+
 For challenge one, create a hash called first_challenge that passes the tests.
+
 For challenge two, create a hash called second_challenge that passes the tests
