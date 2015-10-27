@@ -67,6 +67,20 @@ You can access these values in the same way using `hash_name[key_name]` => retur
 
 Fork and clone this lab. You'll be coding your solutions in `lib/first_challenge.rb` and `lib/second_challenge.rb`.
 
-For challenge one, create a hash called first_challenge that passes the tests.
+For challenge one, create a hash called `first_challenge`. Inside of you hash create a key called `:pizza` and have it point to the value `awesome`. Here you are using hashrocket notation. Your code should look like the following.
 
-For challenge two, create a hash called second_challenge that passes the tests
+```ruby
+first_challenge = {
+  :pizza => "awesome"
+}
+```
+For challenge two, create a hash called `second_challenge`.
+
+Inside of you hash create a key called `burgers` and have it point to the value `great`. Here you are using JSON notation. Your code should look like the following.
+
+```ruby
+first_challenge = {
+  burgers: "great"
+}
+```
+At this point both of your tests should be passing.
