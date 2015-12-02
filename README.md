@@ -84,3 +84,5 @@ first_challenge = {
 }
 ```
 At this point both of your tests should be passing.
+
+<a href='https://learn.co/lessons/ruby-symbols-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
